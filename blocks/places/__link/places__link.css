@@ -1,0 +1,21 @@
+.places__link {
+  margin: 0;
+  padding: 0 16px ;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.23;
+  transition: opacity .5s ease;
+  color: #FFFFFF;
+}
+
+
+.places__link:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width:768px) {
+  .places__link {
+    padding: 0;
+  }
+}
+

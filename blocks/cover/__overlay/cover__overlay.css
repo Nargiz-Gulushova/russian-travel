@@ -1,0 +1,30 @@
+.cover__overlay {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 16px;
+  width: 100%;
+  aspect-ratio: 1.6 / 1;
+  text-align: center;
+  background: rgba(42, 44, 47, .3);
+  color:  #FFFFFF;
+}
+
+.cover__overlay:hover {
+  background-color: #2A2C2F;
+  opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    width: 1184px;
+  }
+}
